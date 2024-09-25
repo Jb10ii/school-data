@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding-bottom: 1%;
+        }
+        .col {
+            background-color: white;
+            color: black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        button {
+            margin-top: 1%;
+        }
+
+        .col {
+            padding-right: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Class ID</th>
+                    <th>Fname</th>
+                    <th>Lname</th>
+                    <th>DOB</th>
+                    <th>Class Name</th>
+                    <th>Score</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <label for="schoolID">What is your class ID:</label><br>
+        <input type="text" id="schoolID" name="schoolID" placeholder="Enter class ID"><br>
+    </div>
+    <div>
+        <label for="schoolFName">What is your first name:</label><br>
+        <input type="text" id="schoolFName" name="schoolFName" placeholder="Enter first name">
+    </div>
+    <div>
+        <label for="schoolLname">What is your last name:</label><br>
+        <input type="text" id="schoolLname" name="schoolLname" placeholder="Enter last name">
+    </div>
+    <div>
+        <label for="schoolDob">What is your DoB:</label><br>
+        <input type="text" id="schoolDob" name="schoolDob" placeholder="Enter your DoB">
+    </div>
+    <div>
+        <label for="schoolCname">What is your class name:</label><br>
+        <input type="text" id="schoolCname" name="schoolCname" placeholder="Enter class name ">
+    </div>
+    <div>
+        <label for="schoolScore">What is your score:</label><br>
+        <input type="text" id="schoolScore" name="schoolScore" placeholder="Enter your score">
+    </div>
+    <div>
+        <label for="schoolGrade">What is your grade:</label><br>
+        <input type="text" id="schoolGrade" name="schoolGrade" placeholder="Enter your grade">
+    </div>
+
+    <div>
+        <button id="gSubmit">Enter</button>
+    </div>
+
+    <script src="data.js"></script>
+</body>
+</html>
